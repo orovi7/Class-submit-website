@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&display=swap');
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 60px;
+    width: 95%;
+   background-color: #736c9b;
+margin-left: 30px;
+margin-top: 20px; /*#736c9b*/
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#menu{
+    height: 400px;
+    width: 95%;
+   
+margin-left: 30px;
+margin-top: 20px; 
+
+}
+#bar{
+    height: 100px;
+    width: 100%;
+   background-color: #736c9b;
+   display: flex;
+}
+
+ i{
+color: white;
+}
+.icon{
+   height: 100px;
+   width: 200px;
+   margin-left: 10px;
+   display: flex;
+}
+
+.home-text{
+    align-content: space-around;
+    color: white;
+}
+
+i{
+    align-content: space-around;
+    margin-left: 70px;
+    margin-right: 2px;
+}
+.side-letters{
+    height: 100px;
+    width: 800px;
+    
+    align-content: space-around;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    color: white;
+}
+.whole{
+    height: 300px;
+    width: 100%;
+    background-color: #f8f7ff;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.adminastration{
+ height: 300px;
+ width: 400px;
+ background-color:#736c9b;
+ 
+
+ 
+
+ /* Center horizontally */
+ 
+ 
+}
+.documentations{
+    height: 300px;
+    width: 800px;
+    background-color: #736c9b;
+    margin-left: 10px;
+}
+.custom-button1{
+    background-color: #A778B8; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Spacing inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+    margin-left: 120px;
+    margin-top: 10px;
+}
+  
+  /* Hover effect */
+  .custom-button1:hover {
+    background-color: #a863c1; /* Darker green on hover */
+  }
+  
+  /* Optional: Focus outline for accessibility */
+  .custom-button2{
+    background-color: #A778B8; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Spacing inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect */
+  .custom-button2:hover {
+    background-color: #a863c1; /* Darker green on hover */
+  }
+  
+ 
+ 
